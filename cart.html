@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <!-- <a href="#"><img src="image/logo.jpg" class="logo" alt="" height="60px" width="60px"></a> -->
+        <a href="#"><img class="logo" src="image/e logo.jpg" alt="" height="60px" width="60px"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="sp-bag"> <a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                    <!-- <a href="cart.html"> <img src="image/shop-bag.png" alt="" height="25px" width="25px"></a> -->
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mob">
+            <a href=""><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="cart_header">
+
+        <h2>#let's talk</h2>
+
+        <p> Thanks for you, Leave a message </p>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>REMOVE</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="image/products_cloth/f1_prduct.jfif" alt=""></td>
+                    <td>CASUAL DESIGNER MANS SHIRTS SUMMER COLLECTION</td>
+                    <td>$48.00</td>
+                    <td><input type="number" value="1"></td>
+
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>$48.00</td>
+                </tr>
+
+                <tr>
+                    <td><img src="image/products_cloth/f11.jfif" alt=""></td>
+                    <td>Fashion Style Women | Summer Outfit Ideas 2023</td>
+                    <td>$148.00</td>
+                    <td><input type="number" value="1"></td>
+
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>$148.00</td>
+                </tr>
+
+                <tr>
+                    <td><img src="image/products_cloth/f5.jpg" alt=""></td>
+                    <td>This Summer with Summer Shirts for Men!</td>
+                    <td>$180.00</td>
+                    <td><input type="number" value="1"></td>
+
+                    <td>
+                        <a href="#"><i class="far fa-times-circle"></i></a>
+                    </td>
+                    <td>$180.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>
+                        Cart subtotal
+                    </td>
+                    <td>$ 376</td>
+                </tr>
+
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 376</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+
+
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+
+
+
+        <div class="install">
+            <img class="logo" src="image/e logo.jpg" alt="" height="60px" width="60px">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play Store</p>
+            <div class="row">
+                <img src="image/app store.png" alt="" height="40px" width="80px">
+                <img src="image/google play.jpg" alt="" height="40px" width="90px">
+            </div>
+            <div>
+                <p>Secured Payment GateWays</p>
+                <img src="image/pay.jpg" alt="" height="70px" width="220px">
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+            <a href="#">Delivert Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">View Cart</a>
+            <a href="#">Track My order</a>
+            <a href="#">Help</a>
+        </div>
+
+
+
+        <div class="col">
+            <!-- <img class="logo" src="image/e logo.jpg" alt="" height="60px" width="60px"> -->
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> MIT Police Line Road, Muzaffarpur, Bihar</p>
+            <p><strong>Phone:</strong>(+91)8797234480 </p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
